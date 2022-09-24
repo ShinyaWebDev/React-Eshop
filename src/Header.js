@@ -13,7 +13,7 @@ function Header() {
   const [{basket}, dispatch] = useStateValue()
   return (
     <div className="header">
-            <Link to="/" style={{textDecoration: "none"}}>
+            <Link to="/React-Eshop" style={{textDecoration: "none"}}>
                 <div className="header__logo">
                     <StoreMallDirectoryIcon className="header__logoImage" fontSize="large"/>
                     <h2 className="header__logoTitle">Eazy Buy</h2>

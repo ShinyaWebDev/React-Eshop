@@ -12,7 +12,7 @@ function App() {
       <Router>
         <Header />
         <Routes>
-          <Route path='/' element={<Home />} />
+          <Route path='/React-Eshop' element={<Home />} />
           <Route path='/login' element={<Login />} />
           <Route path='/checkout' element={<Checkout />} />
           
